@@ -1,0 +1,21 @@
+{
+	"name": "komicho/orm",
+	"type": "framework",
+	"description": "komicho orm database mysql framework",
+	"keywords": ["database", "PHP framework", "SQL", "MySQL", "ORM"],
+	"homepage": "https://github.com/komichoLab/orm",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "komicho",
+			"email": "komicho1996@gmail.com",
+			"homepage": "http://www.komicho.ga",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"komicho\\": "/src"
+		}
+	}
+}
